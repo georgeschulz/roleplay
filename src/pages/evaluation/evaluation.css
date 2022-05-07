@@ -1,0 +1,50 @@
+#evaluation {
+    background-color: #DA9848;
+    height: 100vh;
+    width: 100%;
+}
+
+.evaluation-content-container {
+    display: flex;
+}
+
+.evaluation-column {
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px;
+    border-radius: 10px;
+    margin: 50px;
+    min-height: 70vh;
+}
+
+.evaluation-column h2 {
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#evaluation footer {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-review-element {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.feedback-review-element p {
+    font-size: 25px;
+}
+
+.feedback-review-icon {
+    width: 40px;
+    height: auto;
+    margin: 0px 10px;
+}
+
+.feedback-review-icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

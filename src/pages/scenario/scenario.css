@@ -1,0 +1,12 @@
+#scenario {
+    background-color: #8BD78A;
+    height: 100vh;
+    width: 100%;
+}
+
+.card-group {
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}

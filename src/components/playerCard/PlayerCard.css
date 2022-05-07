@@ -1,0 +1,50 @@
+.card {
+    width: 550px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px;
+    border-radius: 10px;
+    margin: 120px;
+}
+
+
+.card-body-subgroup {
+    padding: 20px 0px;
+}
+
+.card-body-subgroup p, .card-body-subgroup ul li {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.card-header-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-family: "Poppins";
+    font-size: 25px;
+}
+
+.priority-checkbox-group {
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.priority-checkbox {
+    transform: scale(2);
+    margin-top: 11px;
+}
+
+.priority-checkbox-group label {
+    font-size: 26px;
+}
+
+div.card-large {
+    margin: 0px;
+    width: 80%;
+    height: 100%;
+}

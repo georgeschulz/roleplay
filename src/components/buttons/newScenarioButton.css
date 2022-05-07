@@ -1,0 +1,30 @@
+.button-group {
+    width: 100%;
+    display: flex;
+}
+
+.button {
+    border-radius: 100%;
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: #29B840 1px 1px;
+}
+
+.button img {
+    width: 100px;
+    height: auto;
+}
+
+#button-red {
+    background-color: #CA3C3C;
+}
+
+#button-green {
+    background-color: #29B840;
+}
+
